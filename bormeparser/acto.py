@@ -76,6 +76,10 @@ class ACTO:
     ANOTACION_PREVENTIVA_DECLARACION = 54
     CIERRE_SUCURSAL = 55
 
+    # Añadidos para evitar duplicados
+    ADAPTADA_DT2_APARTADO_2_LEY_2_95 = 56
+    CIERRE_PROVISIONAL_REVOCACION_NIF_ENT_JURIDICAS = 57
+
     # Palabras clave con argumentos
     _arg_keywords = {
         'Nombramientos': NOMBRAMIENTOS,
@@ -124,10 +128,10 @@ class ACTO:
         'Pérdida del caracter de unipersonalidad': PERDIDA_DEL_CARACTER_DE_UNIPERSONALIDAD,
         'Reapertura hoja registral': REAPERTURA_HOJA_REGISTRAL,
         'Adaptación Ley 2/95': ADAPTACION_LEY_2_95,
-        'Adaptada segun D.T. 2 apartado 2 Ley 2/95': ADAPTACION_LEY_2_95,
+        'Adaptada segun D.T. 2 apartado 2 Ley 2/95': ADAPTADA_DT2_APARTADO_2_LEY_2_95,
         'Cierre provisional hoja registral por baja en el índice de Entidades Jurídicas': CIERRE_PROVISIONAL_BAJA_EN_EL_INDICE_DE_ENTIDADES_JURIDICAS,
         'Cierre provisional de la hoja registral por revocación del NIF': CIERRE_PROVISIONAL_REVOCACION_NIF,
-        'Cierre provisional hoja registral por revocación del NIFde Entidades Jurídicas': CIERRE_PROVISIONAL_REVOCACION_NIF,
+        'Cierre provisional hoja registral por revocación del NIFde Entidades Jurídicas': CIERRE_PROVISIONAL_REVOCACION_NIF_ENT_JURIDICAS,
         'Cierre provisional hoja registral art. 137.2 Ley 43/1995 Impuesto de Sociedades': CIERRE_PROVISIONAL_IMPUESTO_SOCIEDADES,
         'Reactivación de la sociedad (Art. 242 del Reglamento del Registro Mercantil)': REACTIVACION_DE_LA_SOCIEDAD,
         'Adaptación de sociedad': ADAPTACION_DE_LA_SOCIEDAD,
