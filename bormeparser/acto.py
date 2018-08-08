@@ -80,6 +80,9 @@ class ACTO:
     ADAPTADA_DT2_APARTADO_2_LEY_2_95 = 56
     CIERRE_PROVISIONAL_REVOCACION_NIF_ENT_JURIDICAS = 57
 
+    # New
+    ADAPTACION_LEY_44_2015 = 58
+
     # Palabras clave con argumentos
     _arg_keywords = {
         'Nombramientos': NOMBRAMIENTOS,
@@ -136,6 +139,9 @@ class ACTO:
         'Reactivación de la sociedad (Art. 242 del Reglamento del Registro Mercantil)': REACTIVACION_DE_LA_SOCIEDAD,
         'Adaptación de sociedad': ADAPTACION_DE_LA_SOCIEDAD,
         'Cierre de Sucursal': CIERRE_SUCURSAL,
+
+        # New
+        'Adaptación Ley 44/2015': ADAPTACION_LEY_44_2015
     }
 
     # Palabras clave seguidas por :
