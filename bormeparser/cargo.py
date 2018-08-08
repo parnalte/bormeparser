@@ -409,6 +409,12 @@ class CARGO:
     MIEMBRO_COMISION_CONSU = "Miembro de la comisión Consu."  # ?
     MIEMBRO_COMISION_REP_MUNI = "Miembro de la comisión Rep. Muni."  # ?
 
+    # New
+    AUDITOR_INDIVIDUAL = "Auditor individual"
+    AUDITOR_ART_265 = "Auditor articulo 265"
+    MIEMBRO_COMISION_OPE = "Miembro de la comisión Ope."
+    SOCIO_MIEMBRO = "Socio miembro"
+
     _keywords = {'Presidente': PRESIDENTE,
                  'PRESIDENTE': PRESIDENTE,
                  'Pdte.': PRESIDENTE,
@@ -992,6 +998,14 @@ class CARGO:
                  'COM.GERENCIA': COM_GERENCIA,
                  'MBRO.C.RESPO': MIEMBRO_COMISION_RESPO,
                  'PTE.COMI.RES': PRESIDENTE_COMISION_RESPO,
+
+                  # New
+                  'AUDIT.INDIV': AUDITOR_INDIVIDUAL,
+                  'AUDIT.INDIV.': AUDITOR_INDIVIDUAL,
+                  'AUDIT.ART265': AUDITOR_ART_265,
+                  'Miem.Com.Ope': MIEMBRO_COMISION_OPE,
+                  'Socio Miembr': SOCIO_MIEMBRO,
+
 
                  # hack
                  'Sociedades beneficiarias': SOCIEDADES_BENEFICIARIAS,
